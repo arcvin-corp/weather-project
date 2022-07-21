@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Application</title>
+</head>
+<body>
+    <h1>Weather Application</h1>
+    <hr>
+    <br>
+    <h3>Enter the city name to get the weather report.</h3>
+    <br>
+    <form action="/getWeather" method="post">
+        <label for="cityName">Enter the City name: </label>
+        <input type="text" name="cityName" id="cityName" placeholder="Enter city name">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
